@@ -54,9 +54,9 @@ Setting up the Worker<br>
 1) Woker Service template<br>
     https://learn.microsoft.com/en-us/dotnet/core/extensions/workers<br>
 ```C#<br>
-HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);<br>
-builder.Services.AddHostedService<Worker>();<br>
+HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
+builder.Services.AddHostedService<Worker>();
 
-IHost host = builder.Build();<br>
-host.Run();<br>
-```<br>
+IHost host = builder.Build();
+host.Run();
+```
