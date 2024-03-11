@@ -28,3 +28,25 @@ Generic Host Setup<br>
 ![image](https://github.com/XanNava/Tutorial_GenericHostConsoleApp/assets/19845462/d4582b55-0fbd-479d-bde6-64c4bf9a9173)<br>
 Projects: (Select wich project to add the package)<br>
 Version: (Go with what makes sense, I am using .net 8 so as of this tut I am using the 8.0.0 release and not the preview, though this can be updated later).<br>
+
+Learn .NET Generic Host
+1) Start here, and when you get to "Set up a host" Fallow "Worker Services in .NET" link.
+https://learn.microsoft.com/en-us/dotnet/core/extensions/generic-host?tabs=appbuilder
+
+2) Once you get to "The project file", fallow ".NET project SDKs"
+SDK: Note the portion on SDK versions. We are just doing a console application so the .NET.SDK is what we want(which includes the .NET.Sdk.Worker)
+https://github.com/dotnet/sdk
+
+3) Fallow the install section, and download the SDK that is right for your system.
+
+4) Install, and take note of the resources at the end.
+    • .NET Documentation https://aka.ms/dotnet-docs
+    • SDK Documentation https://aka.ms/dotnet-sdk-docs
+    • Release Notes https://aka.ms/dotnet8-release-notes
+    • Tutorials https://aka.ms/dotnet-tutorials
+Disable Tematry:
+https://learn.microsoft.com/en-us/dotnet/core/tools/telemetry
+  Here is a good tutorial on how to set enviroment variables.
+  see: Set Environment Variable in Windows via GUI
+https://phoenixnap.com/kb/windows-set-environment-variable
+  
