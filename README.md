@@ -11,7 +11,7 @@ Project Setup
 
 3) Fill out project info<br>
 ![image](https://github.com/XanNava/Tutorial_GenericHostConsoleApp/assets/19845462/86596413-abb4-4657-abd7-026ce260c2db)<br>
-(Ussually don't do Place solution and project in the same directory as it makes it cluttered, and more complicated to work with multiple connected projects)<br>
+Place solution and project...: (Ussually don't do Place solution and project in the same directory as it makes it cluttered, and more complicated to work with multiple connected projects)<br>
 
 4) Choose language version, and enable Do not use top-level statements, and Enable native AOT publish.<br>
 ![image](https://github.com/XanNava/Tutorial_GenericHostConsoleApp/assets/19845462/60acd74e-4a3f-4893-a3ea-60b8dc0ffaa9)<br>
