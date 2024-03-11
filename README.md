@@ -24,7 +24,7 @@ Generic Host Setup<br>
 1) go to nuget packages<br>
 ![image](https://github.com/XanNava/Tutorial_GenericHostConsoleApp/assets/19845462/4f4e6155-9b40-4347-9539-5c40427e391c)<br>
 
-2) Search for Microsoft.Extensions.Hosting<br>
+2) Search for Microsoft.Extensions.Hosting<br> and install desired version
 ![image](https://github.com/XanNava/Tutorial_GenericHostConsoleApp/assets/19845462/d4582b55-0fbd-479d-bde6-64c4bf9a9173)<br>
 Projects: (Select wich project to add the package)<br>
 Version: (Go with what makes sense, I am using .net 8 so as of this tut I am using the 8.0.0 release and not the preview, though this can be updated later).<br>
