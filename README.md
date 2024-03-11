@@ -49,4 +49,14 @@ https://learn.microsoft.com/en-us/dotnet/core/tools/telemetry
   Here is a good tutorial on how to set enviroment variables.
   see: Set Environment Variable in Windows via GUI
 https://phoenixnap.com/kb/windows-set-environment-variable
-  
+
+Setting up the Worker
+1) Woker Service template
+    https://learn.microsoft.com/en-us/dotnet/core/extensions/workers
+```C#
+HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
+builder.Services.AddHostedService<Worker>();
+
+IHost host = builder.Build();
+host.Run();
+```
